@@ -32,7 +32,41 @@
 
 - (void) findLabelUsingPoint:(CGPoint)point {
     //CGPoint tapPoint
+    //[self.labelOne gestureRecognizers:point];
+    if (CGRectContainsPoint(self.labelOne.frame, point)) {
+        self.labelOne.text = self.whichPlayerLabel.text;
+    } else if (CGRectContainsPoint(self.labelTwo.frame, point)) {
+        self.labelTwo.text = self.whichPlayerLabel.text;
+    } else if (CGRectContainsPoint(self.labelThree.frame, point)) {
+        self.labelThree.text = self.whichPlayerLabel.text;
+    } else if (CGRectContainsPoint(self.labelFour.frame, point)) {
+        self.labelFour.text = self.whichPlayerLabel.text;
+    } else if (CGRectContainsPoint(self.labelFive.frame, point)) {
+        self.labelFive.text = self.whichPlayerLabel.text;
+    } else if (CGRectContainsPoint(self.labelSix.frame, point)) {
+        self.labelSix.text = self.whichPlayerLabel.text;
+    } else if (CGRectContainsPoint(self.labelSeven.frame, point)) {
+        self.labelSeven.text = self.whichPlayerLabel.text;
+    } else if (CGRectContainsPoint(self.labelEight.frame, point)) {
+        self.labelEight.text = self.whichPlayerLabel.text;
+    } else if (CGRectContainsPoint(self.labelNine.frame, point)) {
+        self.labelNine.text = self.whichPlayerLabel.text;
+    }
 }
+
+- (IBAction)onLabelTapped:(UITapGestureRecognizer *)tapGesture {
+    CGPoint point = [tapGesture locationInView:self.view];
+    [self findLabelUsingPoint:point];
+}
+
+
+
+
+
+
+
+
+
 
 
 @end

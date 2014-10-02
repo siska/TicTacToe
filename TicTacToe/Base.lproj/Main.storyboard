@@ -78,6 +78,10 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="agL-Ku-s7K" appends="YES" id="wSY-z2-i1k"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="labelEight" destination="lpp-VE-Dwr" id="a71-r1-9gf"/>
@@ -93,6 +97,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="agL-Ku-s7K">
+                    <connections>
+                        <action selector="onLabelTapped:" destination="vXZ-lx-hvc" id="D0W-xv-pWP"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>
