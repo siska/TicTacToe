@@ -64,6 +64,12 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x8H-ls-jTp">
+                                <rect key="frame" x="279" y="94" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9C-7V-Oki">
                                 <rect key="frame" x="155" y="363" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -83,6 +89,7 @@
                         <outlet property="labelSix" destination="RbQ-t3-MFv" id="6RS-sX-jqu"/>
                         <outlet property="labelThree" destination="hup-pn-Ttv" id="IUo-zf-UuL"/>
                         <outlet property="labelTwo" destination="GCd-Da-2B5" id="c5P-Ov-III"/>
+                        <outlet property="whichPlayerLabel" destination="x8H-ls-jTp" id="Oiu-75-O9R"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

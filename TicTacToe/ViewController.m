@@ -18,7 +18,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *labelSeven;
 @property (weak, nonatomic) IBOutlet UILabel *labelEight;
 @property (weak, nonatomic) IBOutlet UILabel *labelNine;
-
+@property (weak, nonatomic) IBOutlet UILabel *whichPlayerLabel;
+@property CGPoint tapPoint;
 
 @end
 
@@ -29,9 +30,8 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void) findLabelUsingPoint:(CGPoint)point {
+    //CGPoint tapPoint
 }
 
 @end
